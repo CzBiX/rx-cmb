@@ -1,0 +1,21 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+	<prescription type="service" package="cmb.pb" class="cmb.pb.shield.CmbSecurity" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.cmbsafe.CmbService" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="cmb.shield.CmbUtils" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.feinno.teatalkavsdk.service.CoreService" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.gieseckedevrient.android.pushclient.HcePushService" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.feinno.teatalkavsdk.service.KeepExist" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.huawei.android.pushagent.PushService" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.cherrypicks.walking.counter.StepCounterService" sender="any"/>
+	<prescription type="service" package="cmb.pb" class="com.baidu.location.f" sender="any"/>
+	
+	<prescription type="broadcast" package="cmb.pb" class="cmb.pb.util.ClientBaseFunc.cmbstep.BootRunCounterReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.feinno.teatalk.receiver.HWPushReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.cherrypicks.walking.counter.HeartbeatReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.feinno.teatalk.receiver.NetWorkChangeReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.huawei.android.pushagent.PushBootReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.huawei.android.pushagent.PushEventReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="com.gieseckedevrient.android.hceclient.PushReceiveMsgReceiver" sender="any"/>
+	<prescription type="broadcast" package="cmb.pb" class="cmb.pb.uiservice.util.UpdateBroadcastReceiver" sender="any"/>
+</prescriptions>
